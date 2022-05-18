@@ -1,0 +1,128 @@
+/*
+* Color Palette
+*/
+/*header section*/
+.header_section {
+  width: 100%;
+  height: 40rem;
+  background: url("../../../images/bg-header-desktop.png") no-repeat center center/cover;
+  padding-top: 12rem;
+  margin-bottom: 12rem;
+}
+.header_section .content {
+  flex-direction: column;
+}
+.header_section .content .logo {
+  margin-bottom: 3rem;
+}
+.header_section .content .logo img {
+  width: 8.5rem;
+}
+
+/*snippets*/
+.snippets {
+  margin-bottom: 15rem;
+}
+.snippets .content {
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.snippets .content .left_content {
+  flex: 1 1 60rem;
+}
+.snippets .content .right_content {
+  flex: 1 1 40rem;
+}
+.snippets .content .right_content .info {
+  margin-bottom: 4rem;
+}
+.snippets .content .right_content .info h3 {
+  font-size: 2rem;
+  color: #434C53;
+  margin-bottom: 1.2rem;
+}
+
+/*workflow section*/
+.workflow_section {
+  margin-bottom: 8rem;
+}
+.workflow_section .cards_content .card {
+  text-align: center;
+  flex: 0 0 30rem;
+  margin-bottom: 6rem;
+}
+.workflow_section .cards_content .card img {
+  min-width: 3.8rem;
+  margin-bottom: 1.5rem;
+}
+.workflow_section .cards_content .card h3 {
+  margin-bottom: 2rem;
+}
+
+/*brands*/
+.brands_section {
+  margin-bottom: 12rem;
+}
+.brands_section .brands_content {
+  padding: 0 5rem;
+}
+.brands_section .brand {
+  text-align: center;
+  border: 0.1rem solid #f1f1f1;
+  border-radius: 0.2rem;
+  height: 5.5rem;
+  line-height: 8.2rem;
+}
+.brands_section .brand img {
+  height: 3.5rem;
+  width: 10rem;
+}
+
+/*download ios and mac*/
+.download_ios_mac {
+  margin-bottom: 10rem;
+}
+
+/*footer*/
+.footer {
+  padding: 2rem 0;
+  background-color: #f5f6f8;
+}
+.footer .footer_content {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer .footer_content .logo img {
+  width: 5rem;
+}
+.footer .footer_content .links {
+  align-items: flex-start;
+}
+.footer .footer_content .links .list_items {
+  list-style: none;
+  margin: 0 5rem;
+  text-align: left;
+}
+.footer .footer_content .links .list_items li {
+  line-height: 3rem;
+}
+.footer .footer_content .links .list_items .link_item {
+  color: #111;
+  font-size: 1.6rem;
+  transition: 0.3s;
+}
+.footer .footer_content .links .list_items .link_item:hover {
+  color: #4fb9a9;
+}
+.footer .footer_content .social a {
+  margin: 0 1rem;
+}
+.footer .footer_content .social a img {
+  transition: transform 0.3s;
+}
+.footer .footer_content .social a:hover img {
+  transform: translateY(-1rem);
+}/*# sourceMappingURL=index-style.css.map */

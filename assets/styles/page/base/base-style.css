@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+/*
+* Color Palette
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  font-size: 3.2rem;
+  color: #434C53;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #ADB0B3;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/*flex style*/
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex.flex_column {
+  flex-direction: column;
+}
+
+/*btn style*/
+.btns .btn {
+  background-color: #8896FF;
+  border-radius: 2.5rem;
+  margin: 0 1rem;
+  font-weight: 400;
+  padding: 1.2rem 3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.btns .btn.ios {
+  background-color: #5DCCBB;
+}
+.btns .btn.ios:hover {
+  background: #4fb9a9;
+}
+.btns .btn.mac {
+  background-color: #8896FF;
+}
+.btns .btn.mac:hover {
+  background: #7b87e2;
+}
+
+.heading {
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.heading p {
+  line-height: 1.5;
+}/*# sourceMappingURL=base-style.css.map */

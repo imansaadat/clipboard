@@ -1,0 +1,98 @@
+@use "../../_sass/variable"as *;
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  font-size: 3.2rem;
+  color: $Title_color;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: $Text_Color;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/*flex style*/
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &.flex_column {
+    flex-direction: column;
+  }
+}
+
+/*btn style*/
+.btns {
+  .btn {
+    background-color: #8896FF;
+    border-radius: 2.5rem;
+    margin: 0 1rem;
+    font-weight: 400;
+    padding: 1.2rem 3rem;
+    font-size: 1.5rem;
+    transition: .3s;
+
+    &.ios {
+      background-color: $ioc_btn;
+
+      &:hover {
+        background: #4fb9a9;
+      }
+    }
+
+    &.mac {
+      background-color: $mac_btn;
+
+      &:hover {
+        background: #7b87e2;
+      }
+    }
+  }
+}
+
+.heading{
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  p{
+    line-height: 1.5;
+  }
+}
