@@ -17,14 +17,15 @@
   }
 }
 @media (max-width: 576px) {
-  h1, h2 {
+  h1,
+h2 {
     font-size: 1.8rem;
     text-align: center;
   }
 
-  .header_section .btn, .download_ios_mac .btn {
+  .header .btn,
+.download_ios_mac .btn {
     display: block;
-    margin-bottom: 2rem;
   }
 
   .footer .footer_content {

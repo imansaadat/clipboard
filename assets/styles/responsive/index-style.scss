@@ -1,4 +1,3 @@
-
 @media (max-width: 991px) {
   .snippets {
     margin-bottom: 8rem;
@@ -22,15 +21,16 @@
 }
 
 @media (max-width: 576px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 1.8rem;
     text-align: center;
   }
 
-  .header_section, .download_ios_mac {
+  .header,
+  .download_ios_mac {
     .btn {
       display: block;
-      margin-bottom: 2rem;
     }
   }
   .footer {

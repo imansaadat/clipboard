@@ -1,5 +1,5 @@
-@use "../../_sass/variable"as *;
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@use "../../_sass/variable" as *;
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 a {
@@ -25,7 +25,8 @@ img {
   height: auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 3.2rem;
   color: $Title_color;
   margin-bottom: 1.5rem;
@@ -59,15 +60,15 @@ p {
 }
 
 /*btn style*/
-.btns {
+.btn_group {
   .btn {
-    background-color: #8896FF;
+    display: inline-block;
     border-radius: 2.5rem;
-    margin: 0 1rem;
+    margin: 1rem;
     font-weight: 400;
     padding: 1.2rem 3rem;
     font-size: 1.5rem;
-    transition: .3s;
+    transition: 0.3s;
 
     &.ios {
       background-color: $ioc_btn;
@@ -87,12 +88,12 @@ p {
   }
 }
 
-.heading{
+.heading {
   max-width: 60rem;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 3.5rem;
-  p{
+  p {
     line-height: 1.5;
   }
 }

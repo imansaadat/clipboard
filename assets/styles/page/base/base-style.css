@@ -26,7 +26,8 @@ img {
   height: auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 3.2rem;
   color: #434C53;
   margin-bottom: 1.5rem;
@@ -59,25 +60,25 @@ p {
 }
 
 /*btn style*/
-.btns .btn {
-  background-color: #8896FF;
+.btn_group .btn {
+  display: inline-block;
   border-radius: 2.5rem;
-  margin: 0 1rem;
+  margin: 1rem;
   font-weight: 400;
   padding: 1.2rem 3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.btns .btn.ios {
+.btn_group .btn.ios {
   background-color: #5DCCBB;
 }
-.btns .btn.ios:hover {
+.btn_group .btn.ios:hover {
   background: #4fb9a9;
 }
-.btns .btn.mac {
+.btn_group .btn.mac {
   background-color: #8896FF;
 }
-.btns .btn.mac:hover {
+.btn_group .btn.mac:hover {
   background: #7b87e2;
 }
 
